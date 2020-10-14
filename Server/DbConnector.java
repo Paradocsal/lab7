@@ -7,8 +7,8 @@ import java.util.ArrayDeque;
 
 public class DbConnector {
         private static final String url = "jdbc:postgresql://pg:5432/studs";
-    private static final String user = "s285683";
-    private static final String password = "mmp071";
+    private static final String user = "";
+    private static final String password = "";
     private static Connection connection;
     private static Statement stmt;
     private static PreparedStatement preparedStatement;
